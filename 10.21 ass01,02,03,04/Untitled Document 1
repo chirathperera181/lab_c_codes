@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main(){
+	int day;
+	printf("enter the day:");
+	scanf("%d",&day);
+	switch(day){
+		case 1:printf("sunday");breack;
+		case 2:printf("monday");breack;
+		case 3:printf("tuesday");breack;
+		case 4:printf("wednesday");breack;
+		case 5:printf("thursday");breack;
+		case 6:printf("friday"); breack;
+		case 7:printf("saturday");breack;
+		default:printf("indalid day");
+		return 0;
+}
