@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main{
+int main(){
 	int x,*p;
 	p=&x;
 	*p=0;
@@ -7,5 +7,8 @@ int main{
 	printf("*p is %d\n",*p);
 	*p += 1;
 	printf("x is %d\n",x);
+	(*p)++;
+	printf("x is %d \n",x);
+	return 0;
 return 0;
 }
