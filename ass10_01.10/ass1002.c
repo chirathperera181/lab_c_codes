@@ -13,10 +13,10 @@ int main(){
 	sc.id_no=001;
 	strcpy(sc.name,"Chirath Perera\n");
 	strcpy(sc.address,"Wellampitiya\n");
-	strcpy(sc.combination,"Maths & sc\n");
+	strcpy(sc.combination,"Maths\n");
 	sc.age=100;	
-	printf("student details");
-	printf("\nId num:%d \nName:%s	\naddress:%s	\nCombinatio:%s \nAge:%d",sc.id_no,sc.name,sc.address,sc.combination,sc.age);
+	printf("student details\n");
+	printf("\nId num:%d \n\nName:%s	\naddress:%s	\nCombinatio:%s \nAge:%d\n",sc.id_no,sc.name,sc.address,sc.combination,sc.age);
 
 return 0;
 }
